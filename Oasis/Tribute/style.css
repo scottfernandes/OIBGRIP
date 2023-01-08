@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto','sans-serif';
+}
+.text{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-fluid{
+    background-color: rgb(232, 230, 230);
+    height: 700px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: x-large;
+}
+#img{
+    height: 500px;
+    width: 1536px;
+    opacity: 0.5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.msd{
+    margin-left: 530px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 1px 1px 1px black;
+}
+.details1,.details2{
+    margin-top: 50px;
+}
+#msd1{
+    margin-left: 50px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 1px black;
+
+}
+.section1{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.text1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.desc{
+    text-align: left;
+    margin-left: 200px;
+    line-height: 3rem;
+}
+.img1{
+    margin-top: 200px;
+}
+.tbl{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+th{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+.r{
+    background-color: rgb(34, 92, 179);
+}
+.hr-style {
+    border: 0;
+    height: 3px;
+    width: 750px;
+    margin-left: 350px;
+    margin-top: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 0, 0), rgba(0, 0, 0, 0));
+}
+.timeline{
+    margin-top: 150px;
+}
+.details{
+    margin-top: 50px;
+}
+li{
+    margin-left: 400px;
+    margin-top: 10px;
+    font-size: x-large;
+}
+h2{
+    color: rgb(145, 208, 228);
+}
+.container{
+    margin-top: 200px;
+}
+.imgess,.imgess1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.hr2{
+    border: 0;
+    height: 3px;
+    width: 1000px;
+    margin-left: 140px;
+    margin-top: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 0, 0), rgba(0, 0, 0, 0));
+}
+.imgess{
+    margin-top: 100px;
+    position: relative;
+}
+.imgess1{
+    margin-top: 10px;
+}
+.msd2{
+    opacity: 1;
+    display: block;
+    transition: .3s ease;
+    backface-visibility: hidden;
+    border-radius: 50px;
+    border: 3px solid white;
+    filter: grayscale(100%);
+    box-shadow: 1px 1px 1px black;
+}
+.msd2:hover{
+    transform:scale(1.5);
+    filter: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;   
+}  
